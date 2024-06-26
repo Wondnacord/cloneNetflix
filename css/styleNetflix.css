@@ -1,0 +1,84 @@
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    padding: 17px 30px;
+}
+.logo{
+    width: 150px;
+}
+.idioma{
+    padding: 5px 25px;
+    background-color:black;
+    color: white;
+    border-radius: px;
+    font-size: 15px;
+    
+}
+.ingresar{
+    padding: 5px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+    text-align: center;
+}
+.peliculas{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.disfruta{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.quieres{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.correo{
+    padding: 10px 70px;
+    background-color: #0000008e;
+    border-color: white;
+    border-style: solid ;
+    border-radius: 5px;
+    
+}
+.comenzar{
+    text-align: center;
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+@media screen and(max-width:600px){
+    .inicio{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ingresar{
+        padding: auto;
+    }
+}
